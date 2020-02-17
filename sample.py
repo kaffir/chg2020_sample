@@ -1,7 +1,7 @@
 import jwt
 
 # JWT Example
-secret = "secret1234567890" # real_secret "Ayyv5NekhSPJ7zTMSUccmk5Eq5uR8Pne"
+secret = "secret1234567890"
 # Encode JWT
 encoded = jwt.encode({'some': 'payload', 'foo': 'bar'}, secret, algorithm='HS256')
 print(encoded)
